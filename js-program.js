@@ -1,4 +1,4 @@
-Question-3------------------
+// Question-3------------------
 console.log("Square root of number" );
 function squareRoot(){
 const num = 5
@@ -6,7 +6,7 @@ const sqnum = Math.sqrt(num);
 console.log(sqnum);
 }
 squareRoot();
-Question-4------------------
+// Question-4------------------
 const base = 4;
 const height = 6;
 const tringleArea = console.log(area = (base*height) / 2);
@@ -14,7 +14,7 @@ const tringleArea = console.log(area = (base*height) / 2);
 console.log(tringleArea);
 
 
-----------------second way-------
+// ----------------second way-------
 
 const side1 = parseInt(prompt(' enter the side1 '));
 const side2 = parseInt(prompt(' enter the side2 '));
@@ -31,7 +31,7 @@ const tringleArea = Math.sqrt(s * (sideSum - side1)*(sideSum - side2)*(sideSum -
 console.log('${tringleArea}');
 
 
-Question-5------------------
+// Question-5------------------
 
 let a = 2;
 let b = 4;
@@ -47,8 +47,8 @@ console.log(`value of a : ${a}`);
 console.log(`value of b : ${b}`);
 }
 swapping();
-------------------------------------------------------------------------
-Fibonacci Series.-----------
+// ------------------------------------------------------------------------
+// Fibonacci Series.-----------
 
 // ex- 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
     
@@ -68,7 +68,7 @@ console.log(no1);  //0
 }
 
 
-Armstrong Number.----------
+// Armstrong Number.----------
 
 // 153 = 1*1*1 + 5*5*5 + 3*3*3
 //         1   +  125  +  27 =153 
@@ -91,7 +91,7 @@ if (sum == num){
 }else{
     console.log(`${num} is not armstrong no`);
 }
-Perfect number.---------
+// Perfect number.---------
 
 // perfect number function
 
@@ -114,7 +114,7 @@ function is_perfect(number)
     }
 }
     is_perfect(28);
-Prime number.----------
+// Prime number.----------
 //number is divisible by 1 and itself
 
 //take a input from user
@@ -145,7 +145,7 @@ else if(number > 1){  // 23 > 1
     
 }
 
-Factorial of a number.------------
+// Factorial of a number.------------
 
 // factorial of 5 is equal to 1 * 2 * 3 * 4 * 5 = 120.    
 
@@ -172,7 +172,7 @@ else{
 console.log(`the factorial of ${number} is ${fact}`);    
 }
 
-Display table-------------
+// Display table-------------
 
 //print table
 
@@ -185,7 +185,7 @@ for(let i=1; i<=10; i++)
 console.log(`${number} * ${i} = ${result}`)
 }
 
-Find the Sum of Natural Numbers-------------
+// Find the Sum of Natural Numbers-------------
 
 //print table
 const number = 5;
@@ -198,7 +198,7 @@ for(let i=1; i<=number; i++)
 }
 console.log(sum)
 
- Guess a Number between given number--------------------- 
+//  Guess a Number between given number--------------------- 
 
 function gurssnum(){
     
@@ -220,7 +220,7 @@ if(number == random)
 gurssnum();
 
 
-palindrom---------------------
+// palindrom---------------------
 
 
 function checkpalindrom(string){
@@ -239,7 +239,7 @@ const string = "naman"
 const value = checkpalindrom(string)
 console.log(value);
 
-Sort Words in Alphabetical Order----------------------------
+// Sort Words in Alphabetical Order----------------------------
 
 
 // program to sort words in alphabetical order
